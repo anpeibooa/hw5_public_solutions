@@ -1,0 +1,35 @@
+---
+title: "Homework 5 Solutions"
+author: "Team name: member 1, member 2, member 3, member 4"
+date: "03-23-20"
+output: 
+  html_document:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA, message = FALSE, 
+                      warning = FALSE)
+```
+
+## Packages
+
+```{r}
+library(tidyverse)
+```
+
+## Wawa
+
+```{r}
+wawa <- readRDS("data/wawa/wawa.rds")
+wawa
+```
+
+## Sheetz
+
+```{r}
+sheetz <- readRDS("data/sheetz/sheetz.rds")
+sheetz
+```
+
+## Analysis
